@@ -1,40 +1,13 @@
-Here's the English translation of the provided text, maintaining the original structure and emphasis:
+# Nexa Search : Un Moteur de Recherche Open Source Propulsé par une Base de Données Collaborative
+Nexa Search est un moteur de recherche open source innovant, conçu pour offrir une expérience de recherche performante et entièrement transparente. Contrairement aux moteurs de recherche traditionnels, Nexa Search s'appuie sur sa propre base de données unique, construite et enrichie grâce à la contribution de sa communauté.
 
-Search Features
-Keyword Search: Users can enter a query to search for relevant websites.
+## Comment fonctionne Nexa Search ?
+Actuellement, vous pouvez utiliser Nexa Search pour effectuer des recherches directement sur notre base de données hébergée sur nos serveurs. Cela signifie que vous bénéficiez de la puissance de notre infrastructure pour accéder rapidement aux informations pertinentes.
 
-Stop Word Filtering: It can be configured to ignore common words (stop words) during the search to improve relevance, by loading them from a specified source.
+## Participez à l'expansion de notre base de données
+Ce qui rend Nexa Search vraiment spécial, c'est son aspect collaboratif. Nous vous offrons la possibilité de contribuer activement à l'agrandissement de notre base de données. En participant, vous aidez non seulement à améliorer la pertinence et la richesse des résultats de recherche pour tous les utilisateurs, mais vous devenez également un acteur clé dans le développement d'un moteur de recherche véritablement communautaire. Des détails sur la manière de contribuer seront bientôt disponibles !
 
-Synonym Expansion: The search can automatically expand queries with synonyms to broaden search results.
+## Compatibilité multiplateforme
+Nexa Search est conçu pour être accessible au plus grand nombre. Vous pouvez l'exécuter nativement sur les systèmes d'exploitation les plus populaires : macOS, Windows et Linux.
 
-Result Limitation: Users can configure the maximum number of search results to display.
-
-Typo Correction/Suggestion: If no results are found, the application attempts to suggest the "closest" matching word from its index using the Levenshtein distance algorithm, helping users with potential typos.
-
-Performance Metrics: Displays the number of results found and the time taken for the search.
-
-Web Navigation
-Integrated Web Browser: Offers a functional web browser directly within the Swing application.
-
-Navigation Buttons: Includes "Back" and "Forward" buttons for navigating web Browse history.
-
-Website Information Display: Shows the "Site Name" instead of just the raw URL in the search results list, which is more user-friendly.
-
-Dynamic UI Switching: Smoothly switches between the search results view and the web content view.
-
-User Interface (Swing)
-Responsive Design: Font sizes dynamically adjust based on window resizing for a better user experience across different screen sizes.
-
-Event Handling: Implements ActionListener for button clicks and MouseAdapter for list item selection.
-
-Custom Settings Dialog: A separate ParametresGUI JDialog allows users to configure search settings.
-
-Configuration and Data Management
-Configurable Settings: Allows users to enable/disable stop words and synonyms, set the maximum number of results, and control data collection via a dedicated "Settings" window.
-
-Persistent Settings: Saves and loads user settings (stop word usage, synonym usage, maximum results, data collection) from a "config.properties" file, ensuring preferences are retained across sessions.
-
-Architectural Aspects
-MVC-like UI Structure: Although not a strict MVC implementation, there is a separation of concerns, with RechercheGUI handling the main view and control, and SiteInfo acting as a simple model for search results.
-
-Error Handling: Includes basic try-catch blocks for file I/O operations and numeric parsing to gracefully handle potential errors.
+## Installation et premier démarrage
